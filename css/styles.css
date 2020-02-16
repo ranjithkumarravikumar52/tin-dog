@@ -23,6 +23,7 @@ h1 {
     /*top is 0, left and right is 0, bottom is 4.5*/
     padding: 0 0 4.5rem;
 }
+
 .navbar-brand {
     color: #FBE7FF;
     font-family: 'Ubuntu', sans-serif;
@@ -49,4 +50,34 @@ h1 {
 .title-image {
     transform: rotate(25deg);
     width: 60%;
+}
+
+/*features*/
+#features {
+    /*7% top and bottom, 15% left and right*/
+    padding: 7% 15%;
+}
+
+.features-box {
+    text-align: center;
+    padding: 5%;
+}
+
+#features .fas {
+    color: #ef8172;
+    padding-bottom: 18px;
+}
+
+#features .fas:hover {
+    color: #ff4c68;
+}
+
+#features h3 {
+    font-family: "Montserrat", sans-serif;
+    font-size: 1.5rem;
+    font-weight: 900;
+}
+
+#features p {
+    color: #8f8f8f;
 }
