@@ -117,3 +117,9 @@ h3 {
     width: 15%;
     margin: 20px 20px 50px;
 }
+
+/*pricing*/
+#pricing {
+    /*7% top and bottom, 15% left and right*/
+    padding: 7% 15%;
+}
