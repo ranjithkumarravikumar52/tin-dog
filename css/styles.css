@@ -8,7 +8,8 @@ body {
 }
 
 .container-fluid {
-    padding: 3% 15%;
+    /*when 3-values short hand is used, 1st becomes top, 2nd becomes left and right and 3rd becomes bottom*/
+    padding: 3% 15% 7%;
 }
 
 h1 {
@@ -63,12 +64,20 @@ h3 {
 .title-image {
     transform: rotate(25deg);
     width: 60%;
+    position: absolute;
 }
 
 /*features*/
 #features {
     /*7% top and bottom, 15% left and right*/
     padding: 7% 15%;
+    background-color: white;
+    /*z-index: 1; */
+    /*We don't need the above, because when title-image and features both have position, they have been taken out of the
+    natural html flow, so the one that comes later in html flow (or the code) will sit on top of the previous element.
+    In other words, child will sit on top of the parent.
+     */
+    position: relative;
 }
 
 .features-box {
