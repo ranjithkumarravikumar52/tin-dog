@@ -132,3 +132,18 @@ h3 {
     /*7% top and bottom, 15% left and right*/
     padding: 7% 15%;
 }
+
+/*media queries*/
+@media (max-width: 1028px) {
+
+    #title {
+        /*because it looks weird to have it left-aligned*/
+        text-align: center;
+    }
+
+    .title-image {
+        position: static;
+        /*absolute degrees*/
+        transform: rotate(0);
+    }
+}
