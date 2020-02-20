@@ -114,8 +114,8 @@ h3 {
 .carousel-item {
     padding: 7% 15%;
 }
-/*press*/
 
+/*press*/
 #press {
     background-color: #ef8172;
     text-align: center;
@@ -133,6 +133,33 @@ h3 {
     padding: 7% 15%;
 }
 
+/*call to action section*/
+#cta {
+    padding: 7% 15%;
+    background-color: #ff4c68;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 900;
+    color: #FFFFFF;
+    text-align: center;
+}
+
+.cta-header {
+    margin-bottom: 45px;
+    font-size: 3.5rem;
+    line-height: 1.5;
+}
+
+/*footer section*/
+#footer {
+    padding: 7% 15%;
+    background-color: #FFFFFF;
+    text-align: center;
+}
+
+.social-icon, .footer-text {
+    margin: 10px;
+}
+
 /*media queries*/
 @media (max-width: 1028px) {
 
@@ -146,25 +173,4 @@ h3 {
         /*absolute degrees*/
         transform: rotate(0);
     }
-}
-
-
-/*call to action section*/
-#cta {
-    padding: 7% 15%;
-    background-color: #ff4c68;
-    font-family: "Montserrat", sans-serif;
-    font-weight: 900;
-    color: #FFFFFF;
-    text-align: center;
-}
-
-.cta-header {
-    margin-bottom: 45px;
-}
-
-.cta-button {
-    margin-left: 25px;
-    margin-right: 25px;
-    margin-bottom: 10px;
 }
