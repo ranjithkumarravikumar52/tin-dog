@@ -147,3 +147,24 @@ h3 {
         transform: rotate(0);
     }
 }
+
+
+/*call to action section*/
+#cta {
+    padding: 7% 15%;
+    background-color: #ff4c68;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 900;
+    color: #FFFFFF;
+    text-align: center;
+}
+
+.cta-header {
+    margin-bottom: 45px;
+}
+
+.cta-button {
+    margin-left: 25px;
+    margin-right: 25px;
+    margin-bottom: 10px;
+}
