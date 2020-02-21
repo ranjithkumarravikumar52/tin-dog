@@ -1,35 +1,40 @@
+/*TODO ranjith: refactor this file to follow BEM model*/
 body {
     font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    text-align: center;
 }
 
-#title {
-    background-color: #ff4c68;
-    color: #FFF;
+h1, h2, h3, h4, h5, h6 {
+    font-family: "Montserrat", sans-serif;
+    font-weight: 900;
 }
 
-.container-fluid {
-    /*when 3-values short hand is used, 1st becomes top, 2nd becomes left and right and 3rd becomes bottom*/
-    padding: 3% 15% 7%;
-}
-
-h1 {
+.big-heading {
     font-family: 'Montserrat', sans-serif;
     font-size: 3.5rem;
     font-weight: 900;
     line-height: 1.5;
 }
 
-h2 {
-    font-family: "Montserrat", sans-serif;
+.section-heading {
     font-size: 3rem;
-    font-weight: 900;
     line-height: 1.5;
 }
 
-h3 {
-    font-family: "Montserrat", sans-serif;
-    font-size: 1.5rem;
-    font-weight: 900;
+/*containers*/
+.container-fluid {
+    padding: 7% 15%;
+}
+
+/*sections*/
+.colored-section {
+    background-color: #ef8172;
+    color: #FFFFFF;
+}
+
+.white-section {
+    background-color: #FFFFFF;
 }
 
 /*navigation bar*/
@@ -60,17 +65,26 @@ h3 {
     margin: 5% 3% 5% 0;
 }
 
+/*title section*/
+#title {
+    text-align: left; /*entire page is center aligned except this*/
+    background-color: #ff4c68;
+}
+
 /*title image*/
 .title-image {
+    position: absolute;
     transform: rotate(25deg);
     width: 60%;
-    position: absolute;
+}
+
+#title .container-fluid { /*read this R->L*/
+    padding: 3% 15% 7%;
 }
 
 /*features*/
 #features {
     /*7% top and bottom, 15% left and right*/
-    padding: 7% 15%;
     background-color: white;
     /*z-index: 1; */
     /*We don't need the above, because when title-image and features both have position, they have been taken out of the
@@ -80,9 +94,12 @@ h3 {
     position: relative;
 }
 
+.feature-title {
+    font-size: 1.5rem;
+}
+
 .features-box {
     padding: 5%;
-    text-align: center;
 }
 
 #features .fas {
@@ -99,61 +116,35 @@ h3 {
 }
 
 /*testimonials*/
-#testimonials {
-    background-color: #ef8172;
-    color: #FFFFFF;
-    text-align: center;
-}
-
 .testimonial-image {
-    width: 10%;
     border-radius: 100%;
     margin: 20px;
+    width: 10%;
 }
 
-.carousel-item {
-    padding: 7% 15%;
+.testimonial-text {
+    font-size: 3rem;
+    line-height: 1.5;
 }
 
 /*press*/
 #press {
-    background-color: #ef8172;
-    text-align: center;
     padding-bottom: 3%;
 }
 
 .press-logo {
-    width: 15%;
     margin: 20px 20px 50px;
+    width: 15%;
 }
 
 /*pricing*/
 #pricing {
     /*7% top and bottom, 15% left and right*/
-    padding: 7% 15%;
-}
-
-/*call to action section*/
-#cta {
-    padding: 7% 15%;
-    background-color: #ff4c68;
-    font-family: "Montserrat", sans-serif;
-    font-weight: 900;
-    color: #FFFFFF;
-    text-align: center;
-}
-
-.cta-header {
-    margin-bottom: 45px;
-    font-size: 3.5rem;
-    line-height: 1.5;
 }
 
 /*footer section*/
 #footer {
-    padding: 7% 15%;
     background-color: #FFFFFF;
-    text-align: center;
 }
 
 .social-icon, .footer-text {
