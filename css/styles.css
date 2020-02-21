@@ -9,10 +9,6 @@ h1, h2, h3, h4, h5, h6 {
 
 }
 
-h3 {
-    font-size: 1.5rem;
-}
-
 .big-heading {
     font-family: 'Montserrat', sans-serif;
     font-size: 3.5rem;
@@ -80,6 +76,10 @@ h3 {
     In other words, child will sit on top of the parent.
      */
     position: relative;
+}
+
+.feature-title {
+    font-size: 1.5rem;
 }
 
 .features-box {
