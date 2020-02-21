@@ -21,15 +21,9 @@ h1, h2, h3, h4, h5, h6 {
     line-height: 1.5;
 }
 
-#title {
-    background-color: #ff4c68;
-    color: #FFF;
-    text-align: left; /*entire page is center aligned except this*/
-}
-
+/*containers*/
 .container-fluid {
-    /*when 3-values short hand is used, 1st becomes top, 2nd becomes left and right and 3rd becomes bottom*/
-    padding: 3% 15% 7%;
+    padding: 7% 15%;
 }
 
 /*navigation bar*/
@@ -60,6 +54,13 @@ h1, h2, h3, h4, h5, h6 {
     margin: 5% 3% 5% 0;
 }
 
+/*title section*/
+#title {
+    background-color: #ff4c68;
+    color: #FFF;
+    text-align: left; /*entire page is center aligned except this*/
+}
+
 /*title image*/
 .title-image {
     position: absolute;
@@ -67,11 +68,14 @@ h1, h2, h3, h4, h5, h6 {
     width: 60%;
 }
 
+#title .container-fluid { /*read this R->L*/
+    padding: 3% 15% 7%;
+}
+
 /*features*/
 #features {
     /*7% top and bottom, 15% left and right*/
     background-color: white;
-    padding: 7% 15%;
     /*z-index: 1; */
     /*We don't need the above, because when title-image and features both have position, they have been taken out of the
     natural html flow, so the one that comes later in html flow (or the code) will sit on top of the previous element.
@@ -119,7 +123,6 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .carousel-item {
-    padding: 7% 15%;
 }
 
 /*press*/
@@ -136,7 +139,6 @@ h1, h2, h3, h4, h5, h6 {
 /*pricing*/
 #pricing {
     /*7% top and bottom, 15% left and right*/
-    padding: 7% 15%;
 }
 
 /*call to action section*/
@@ -145,13 +147,11 @@ h1, h2, h3, h4, h5, h6 {
     color: #FFFFFF;
     font-family: "Montserrat", sans-serif;
     font-weight: 900;
-    padding: 7% 15%;
 }
 
 /*footer section*/
 #footer {
     background-color: #FFFFFF;
-    padding: 7% 15%;
 }
 
 .social-icon, .footer-text {
