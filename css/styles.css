@@ -1,12 +1,12 @@
 body {
     font-family: 'Montserrat', sans-serif;
     font-weight: 400;
+    text-align: center;
 }
 
 h1, h2, h3, h4, h5, h6 {
     font-family: "Montserrat", sans-serif;
     font-weight: 900;
-
 }
 
 .big-heading {
@@ -24,6 +24,7 @@ h1, h2, h3, h4, h5, h6 {
 #title {
     background-color: #ff4c68;
     color: #FFF;
+    text-align: left; /*entire page is center aligned except this*/
 }
 
 .container-fluid {
@@ -85,7 +86,6 @@ h1, h2, h3, h4, h5, h6 {
 
 .features-box {
     padding: 5%;
-    text-align: center;
 }
 
 #features .fas {
@@ -105,7 +105,6 @@ h1, h2, h3, h4, h5, h6 {
 #testimonials {
     background-color: #ef8172;
     color: #FFFFFF;
-    text-align: center;
 }
 
 .testimonial-image {
@@ -127,7 +126,6 @@ h1, h2, h3, h4, h5, h6 {
 #press {
     background-color: #ef8172;
     padding-bottom: 3%;
-    text-align: center;
 }
 
 .press-logo {
@@ -148,14 +146,12 @@ h1, h2, h3, h4, h5, h6 {
     font-family: "Montserrat", sans-serif;
     font-weight: 900;
     padding: 7% 15%;
-    text-align: center;
 }
 
 /*footer section*/
 #footer {
     background-color: #FFFFFF;
     padding: 7% 15%;
-    text-align: center;
 }
 
 .social-icon, .footer-text {
