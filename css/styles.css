@@ -2,16 +2,6 @@ body {
     font-family: 'Montserrat', sans-serif;
 }
 
-#title {
-    background-color: #ff4c68;
-    color: #FFF;
-}
-
-.container-fluid {
-    /*when 3-values short hand is used, 1st becomes top, 2nd becomes left and right and 3rd becomes bottom*/
-    padding: 3% 15% 7%;
-}
-
 h1 {
     font-family: 'Montserrat', sans-serif;
     font-size: 3.5rem;
@@ -30,6 +20,16 @@ h3 {
     font-family: "Montserrat", sans-serif;
     font-size: 1.5rem;
     font-weight: 900;
+}
+
+#title {
+    background-color: #ff4c68;
+    color: #FFF;
+}
+
+.container-fluid {
+    /*when 3-values short hand is used, 1st becomes top, 2nd becomes left and right and 3rd becomes bottom*/
+    padding: 3% 15% 7%;
 }
 
 /*navigation bar*/
@@ -62,16 +62,16 @@ h3 {
 
 /*title image*/
 .title-image {
+    position: absolute;
     transform: rotate(25deg);
     width: 60%;
-    position: absolute;
 }
 
 /*features*/
 #features {
     /*7% top and bottom, 15% left and right*/
-    padding: 7% 15%;
     background-color: white;
+    padding: 7% 15%;
     /*z-index: 1; */
     /*We don't need the above, because when title-image and features both have position, they have been taken out of the
     natural html flow, so the one that comes later in html flow (or the code) will sit on top of the previous element.
@@ -106,9 +106,9 @@ h3 {
 }
 
 .testimonial-image {
-    width: 10%;
     border-radius: 100%;
     margin: 20px;
+    width: 10%;
 }
 
 .carousel-item {
@@ -118,13 +118,13 @@ h3 {
 /*press*/
 #press {
     background-color: #ef8172;
-    text-align: center;
     padding-bottom: 3%;
+    text-align: center;
 }
 
 .press-logo {
-    width: 15%;
     margin: 20px 20px 50px;
+    width: 15%;
 }
 
 /*pricing*/
@@ -135,24 +135,24 @@ h3 {
 
 /*call to action section*/
 #cta {
-    padding: 7% 15%;
     background-color: #ff4c68;
+    color: #FFFFFF;
     font-family: "Montserrat", sans-serif;
     font-weight: 900;
-    color: #FFFFFF;
+    padding: 7% 15%;
     text-align: center;
 }
 
 .cta-header {
-    margin-bottom: 45px;
     font-size: 3.5rem;
     line-height: 1.5;
+    margin-bottom: 45px;
 }
 
 /*footer section*/
 #footer {
-    padding: 7% 15%;
     background-color: #FFFFFF;
+    padding: 7% 15%;
     text-align: center;
 }
 
