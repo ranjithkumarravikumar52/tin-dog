@@ -13,6 +13,7 @@ h1, h2, h3, h4, h5, h6 {
     font-family: 'Montserrat', sans-serif;
     font-size: 3.5rem;
     font-weight: 900;
+    line-height: 1.5;
 }
 
 .section-heading {
@@ -148,12 +149,6 @@ h1, h2, h3, h4, h5, h6 {
     font-weight: 900;
     padding: 7% 15%;
     text-align: center;
-}
-
-.cta-header {
-    font-size: 3.5rem;
-    line-height: 1.5;
-    margin-bottom: 45px;
 }
 
 /*footer section*/
